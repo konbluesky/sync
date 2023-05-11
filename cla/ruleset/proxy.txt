@@ -17,3 +17,4 @@ payload:
   - '+.mirror.xyz'
   - '+.2captcha.com'
   - '+.github.com'
+  - '+.23img.com'
