@@ -6,6 +6,7 @@ payload:
   - '+.chainlist.org'
   - '+.shardeumswap.finance'
   - '+.pancakeswap.finance'
+  - '+.pancakeswap.info'
   - '+.thirdweb.com'
   - '+.metamask.io'
   - '+.mirror.xyz'
