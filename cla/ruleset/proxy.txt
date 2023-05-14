@@ -14,6 +14,7 @@ payload:
   - '+.2captcha.com'
   - '+.gleam.io'
   - '+.binance.com'
+  - '+.binance.org'
   - '+.rainbow.me'
   - '+.uniswap.org'
   - '+.coinbase.com'
