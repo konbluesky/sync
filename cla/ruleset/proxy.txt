@@ -25,3 +25,4 @@ payload:
   - '+.gitbook.com'
   - '+.gitbook.io'
   - '+.registry.npmjs.org'
+  - '+.bing.com'
