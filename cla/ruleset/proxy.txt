@@ -4,6 +4,8 @@ payload:
   - '+.huobi.co.il'
   - '+.discord.com'
   - '+.chainlist.org'
+  - '+.bscscan.com'
+  - '+.web3api.com'
   - '+.shardeumswap.finance'
   - '+.pancakeswap.finance'
   - '+.pancakeswap.info'
