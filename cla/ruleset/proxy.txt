@@ -26,6 +26,7 @@ payload:
   - '+.eth-mainnet-public.unifra.io'
   - '+.mainnet.infura.io'
   - '+.gateway.pokt.network'
+  - '+.securerpc.com'
   - '+.nodereal.io'
   - '+.ninicoin.io'
   - '+.blockpi.network'
