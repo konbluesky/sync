@@ -39,3 +39,4 @@ payload:
   - '+.gitbook.io'
   - '+.registry.npmjs.org'
   - '+.bing.com'
+  - '+.tensorboard.dev'
