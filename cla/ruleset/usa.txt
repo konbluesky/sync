@@ -1,4 +1,3 @@
 payload:
   - '+.osmbuildings.org'
   - '+.openai.com'
-  - '+.avedex.cc'
