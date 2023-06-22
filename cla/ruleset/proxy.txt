@@ -28,6 +28,7 @@ payload:
   - '+.mainnet.infura.io'
   - '+.gateway.pokt.network'
   - '+.securerpc.com'
+  - '+.radiant.capital'
   - '+.nodereal.io'
   - '+.ninicoin.io'
   - '+.blockpi.network'
