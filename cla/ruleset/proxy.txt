@@ -42,3 +42,4 @@ payload:
   - '+.registry.npmjs.org'
   - '+.bing.com'
   - '+.tensorboard.dev'
+  - '43.163.193.14'
