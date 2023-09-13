@@ -1,6 +1,7 @@
 #!name=自用模块
 #!desc=知乎去广告+优化
 
+
 [MITM]	
 hostname = %APPEND% www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com
 
