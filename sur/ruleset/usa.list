@@ -1,2 +1,2 @@
-DOMAIN-SUFFIX,osmbuildings.org,DIRECT
-DOMAIN-SUFFIX,openai.com,DIRECT
+DOMAIN-SUFFIX,osmbuildings.org,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
