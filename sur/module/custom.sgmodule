@@ -1,6 +1,5 @@
 #!name=自用模块
-#!desc=知乎去广告+优化
-
+#!desc=知乎去广告+优化 https://raw.githubusercontent.com/adntian/sync/main/sur/module/custom.sgmodule
 
 [MITM]	
 hostname = %APPEND% www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.zhihu.com
@@ -25,9 +24,9 @@ hostname = %APPEND% www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.
 # --------------
 # 知乎
 # 屏蔽知乎下发的配置，如皮肤等
-^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
+^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - REJECT
 # 屏蔽知乎“我的”页面推荐开通会员的卡片
-^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - reject
+^https?:\/\/api\.zhihu\.com\/people\/self\/new_user_card - REJECT
 
 [Map Local]
 # 知乎
@@ -46,4 +45,4 @@ hostname = %APPEND% www.zhihu.com, api.zhihu.com, zhuanlan.zhihu.com, appcloud2.
 # --------------
 # 知乎
 # 知乎广告拦截
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT-NO-DROP
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_remove_ads.list,REJECT
