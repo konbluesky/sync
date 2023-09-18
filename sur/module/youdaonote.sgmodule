@@ -1,0 +1,9 @@
+#!name=有道云笔记
+#!desc=去广告，显示vip
+
+[MITM]
+hostname = %APPEND% note.youdao.com,silk.lx.netease.com
+
+[Script]
+有道云笔记=type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),requires-body=1 ,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js
+有道云笔记去广告=type=http-response,pattern=https://silk.lx.netease.com/api/web/advertWeb/getAdvertResources,requires-body=1 ,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybjad.js
