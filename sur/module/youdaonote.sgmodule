@@ -5,5 +5,5 @@
 hostname = %APPEND% note.youdao.com,silk.lx.netease.com
 
 [Script]
-有道云笔记=type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),requires-body=1 ,script-path=https://raw.githubusercontent.com/adntian/sync/main/sur/js/youdaonoteadvip.js
+有道云笔记=type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self|mapi/user),requires-body=1 ,script-path=https://raw.githubusercontent.com/adntian/sync/main/sur/js/youdaonoteadvip.js
 有道云笔记去广告=type=http-response,pattern=https://silk.lx.netease.com/api/web/advertWeb/getAdvertResources,requires-body=1 ,script-path=https://raw.githubusercontent.com/adntian/sync/main/sur/js/youdaonotead.js
