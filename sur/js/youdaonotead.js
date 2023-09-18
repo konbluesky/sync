@@ -6,5 +6,6 @@ hostname: silk.lx.netease.com
 
 
 let obj = JSON.parse($response.body);
-obj.data.itemList = []
+if (obj.data.itemList && obj.data.itemList.length > 0)
+  obj.data.itemList[0].advertResourceList = [];
 $done({body: JSON.stringify(obj)});
