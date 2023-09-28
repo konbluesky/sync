@@ -1,0 +1,9 @@
+#!name=paddle相关软件激活
+#!desc=通过MITM激活Rectangle Pro、Swish、Timemator等软件.
+
+[MITM]
+hostname = *.paddleapi.com
+
+[Script]
+Paddle1 = type=http-request,pattern=^https://v3.paddleapi.com/3.2/license/verify,requires-body=1,max-size=0,debug=0,script-path=paddle_act.js
+Paddle2 = type=http-request,pattern=^https://v3.paddleapi.com/3.2/license/activate,requires-body=1,max-size=0,debug=0,script-path=paddle_act.js
