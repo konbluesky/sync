@@ -2,4 +2,4 @@
 #!desc=小学英语同步学习
 
 [Script]
-xxyytbxx = type=http-response,pattern=^http://www.tap-edu.cn/online/whiteList.plist,max-size=0,debug=0,script-path=https://raw.githubusercontent.com/adntian/sync/main/sur/js/%E5%B0%8F%E5%AD%A6%E8%8B%B1%E8%AF%AD%E5%90%8C%E6%AD%A5%E5%AD%A6%E4%B9%A0.js
+xxyytbxx = type=http-response,pattern=^http://www.tap-edu.cn/online/whiteList.plist,max-size=0,debug=0,script-path=https://raw.githubusercontent.com/adntian/sync/main/sur/js/xxyytbxx.js
