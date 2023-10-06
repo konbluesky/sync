@@ -1,0 +1,5 @@
+#!name=小学英语同步学习
+#!desc=小学英语同步学习
+
+[Script]
+xxyytbxx = type=http-response,pattern=^http://www.tap-edu.cn/online/whiteList.plist,max-size=0,debug=0,script-path=paddle_act.js
