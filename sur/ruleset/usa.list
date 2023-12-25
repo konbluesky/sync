@@ -3,3 +3,5 @@ DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,grazie.ai,PROXY
 DOMAIN-SUFFIX,cdn.oaistatic.com,PROXY
 DOMAIN-SUFFIX,grazie.aws.intellij.net,PROXY
+
+DOMAIN-SUFFIX,imagine.meta.com
