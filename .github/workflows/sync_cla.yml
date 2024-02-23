@@ -1,0 +1,29 @@
+name: Format A File
+
+on:
+  push:
+    paths:
+      - 'sync/sur/ruleset/' # 当文件发生变化时触发
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Convert sur to cla
+        run: |
+          # 在这里编写将sur文件内容进行格式转换，并将结果写入cla文件的命令
+          echo 'payload:' > cla/ruleset/proxy-ip.txt
+          cat sur/ruleset/proxy.list|grep IP-CIDR|sed s/IP-CIDR,/\\t-\ \'/g|sed s/,PROXY/\'/ >> cla/ruleset/proxy-ip.txt
+          echo 'payload:' > cla/ruleset/proxy.txt
+          cat sur/ruleset/proxy.list|grep DOMAIN|sed s/DOMAIN-SUFFIX,/\\t-\ \'\+\./g|sed s/,PROXY/\'/ cla/ruleset/proxy.txt
+          echo 'payload:' > cla/ruleset/usa.txt
+          cat sur/ruleset/usa.list|grep DOMAIN|sed s/DOMAIN-SUFFIX,/\\t-\ \'\+\./g|sed s/,PROXY/\'/ cla/ruleset/usa.txt
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "sync: 同步sur规则到cla"
