@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - 'sur/ruleset/*.js'
+      - '*/sur/ruleset/*.js'
 
 jobs:
   format:
