@@ -1,1 +1,8 @@
 payload:
+	- '+.osmbuildings.org'
+	- '+.openai.com'
+	- '+.grazie.ai'
+	- '+.cdn.oaistatic.com'
+	- '+.grazie.aws.intellij.net'
+	- '+.imagine.meta.com'
+	- '+.bard.google.com'
