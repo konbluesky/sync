@@ -21,9 +21,9 @@ jobs:
           echo 'payload:' > cla/ruleset/proxy-ip.txt
           cat sur/ruleset/proxy.list|grep IP-CIDR|sed s/IP-CIDR,/\\t-\ \'/g|sed s/,PROXY/\'/ >> cla/ruleset/proxy-ip.txt
           echo 'payload:' > cla/ruleset/proxy.txt
-          cat sur/ruleset/proxy.list|grep DOMAIN|sed s/DOMAIN-SUFFIX,/\\t-\ \'\+\./g|sed s/,PROXY/\'/ cla/ruleset/proxy.txt
+          cat sur/ruleset/proxy.list|grep DOMAIN|sed s/DOMAIN-SUFFIX,/\\t-\ \'\+\./g|sed s/,PROXY/\'/ >> cla/ruleset/proxy.txt
           echo 'payload:' > cla/ruleset/usa.txt
-          cat sur/ruleset/usa.list|grep DOMAIN|sed s/DOMAIN-SUFFIX,/\\t-\ \'\+\./g|sed s/,PROXY/\'/ cla/ruleset/usa.txt
+          cat sur/ruleset/usa.list|grep DOMAIN|sed s/DOMAIN-SUFFIX,/\\t-\ \'\+\./g|sed s/,PROXY/\'/ >> cla/ruleset/usa.txt
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
