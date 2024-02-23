@@ -3,7 +3,7 @@ name: Format A File
 on:
   push:
     paths:
-      - 'sync/sur/ruleset/' # 当文件发生变化时触发
+      - 'sur/ruleset/' # 当文件发生变化时触发
 
 jobs:
   format:
