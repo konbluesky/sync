@@ -2,8 +2,10 @@ name: Format A File
 
 on:
   push:
+    branches:
+      - 'main'
     paths:
-      - 'sur/ruleset/' # 当文件发生变化时触发
+      - 'sur/ruleset/*.js'
 
 jobs:
   format:
