@@ -1,4 +1,4 @@
-name: Format A File
+name: Convert sur to cla
 
 on:
   push:
