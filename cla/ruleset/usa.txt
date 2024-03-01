@@ -6,3 +6,4 @@ payload:
 	- '+.grazie.aws.intellij.net'
 	- '+.imagine.meta.com'
 	- '+.bard.google.com'
+	- '+.galxe.com'
