@@ -5,4 +5,6 @@ DOMAIN-SUFFIX,speedtest.singnet.com.sg,PROXY
 DOMAIN-SUFFIX,ionetworkers.redis.cache.windows.net,PROXY
 DOMAIN-SUFFIX,hooks.slack.com,PROXY
 DOMAIN-SUFFIX,in.logs.betterstack.com,PROXY
-
+DOMAIN-SUFFIX,io.net,PROXY
+DOMAIN-SUFFIX,io.systems,PROXY
+DOMAIN-SUFFIX,ipinfo.io,PROXY
