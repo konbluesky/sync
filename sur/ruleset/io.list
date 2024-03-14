@@ -2,7 +2,7 @@ DOMAIN-SUFFIX,starhub.com,PROXY
 DOMAIN-SUFFIX,ondigitalocean.app,PROXY
 DOMAIN-SUFFIX,segment.io,PROXY
 DOMAIN-SUFFIX,speedtest.singnet.com.sg,PROXY
-DOMAIN-SUFFIX,segment.io,PROXY
-DOMAIN-SUFFIX,segment.io,PROXY
-DOMAIN-SUFFIX,segment.io,PROXY
+DOMAIN-SUFFIX,ionetworkers.redis.cache.windows.net,PROXY
+DOMAIN-SUFFIX,hooks.slack.com,PROXY
+DOMAIN-SUFFIX,in.logs.betterstack.com,PROXY
 
