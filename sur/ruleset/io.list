@@ -12,4 +12,3 @@ DOMAIN-SUFFIX,google.com,PROXY
 DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,youtube.com,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
-PROCESS-NAME,/Applications/Docker.app/Contents/MacOS/com.docker.backend,PROXY
