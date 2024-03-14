@@ -8,3 +8,7 @@ DOMAIN-SUFFIX,in.logs.betterstack.com,PROXY
 DOMAIN-SUFFIX,io.net,PROXY
 DOMAIN-SUFFIX,io.systems,PROXY
 DOMAIN-SUFFIX,ipinfo.io,PROXY
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
