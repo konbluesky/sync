@@ -1,0 +1,9 @@
+#!name=io.net
+##!desc=io.net注入自动刷新js
+
+[MITM] 
+hostname = %APPEND% cloud.io.net, production.io.systems
+
+[Script]
+ioNetScriptHook = type=http-response,pattern=^https://cloud.io.net/worker/devices(\/\w-[^\/]*)?,requires-body=true,max-size=0,script-path=io.net.js
+ioNetScriptRecord = type=http-response,pattern=^https://production.io.systems/v1/io-worker/devices/[\w\d-]*/[details|summary],debug=1,requires-body=true,max-size=0,script-path=io.net.record.js
