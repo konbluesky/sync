@@ -14,3 +14,4 @@ DOMAIN-SUFFIX,youtube.com,PROXY
 DOMAIN-SUFFIX,googleapis.com,PROXY
 DOMAIN-SUFFIX,x.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,speedtest.jsinfo.net,PROXY
