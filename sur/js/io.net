@@ -1,0 +1,12 @@
+const body = $response.body || ''
+$done({
+  body: body.replace(/<\/head>/, `<script type="text/javascript">
+  console.log('im here 1--');
+  
+  setTimeout(() => {
+    console.log('im here 2');
+    location.reload()
+  }, 30000)
+  
+    </script></head>`)
+})
