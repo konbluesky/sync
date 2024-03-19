@@ -1,3 +1,4 @@
 DOMAIN-SUFFIX,npmjs.org,PROXY
 DOMAIN-SUFFIX,cloudflare.com,PROXY
 DOMAIN-SUFFIX,docker.com,PROXY
+DOMAIN-SUFFIX,todesk.com,PROXY
