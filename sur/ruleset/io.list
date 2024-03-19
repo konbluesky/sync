@@ -27,7 +27,7 @@ DOMAIN-SUFFIX,mbspeed.net,PROXY
 DOMAIN-SUFFIX,results.speedtest.net,PROXY
 DOMAIN-KEYWORD,speed,PROXY
 DOMAIN-SUFFIX,arkoselabs.com,PROXY
-DOMAIN-SUFFIX,ionetworkers.azurewebsites.net,PROXY
 DOMAIN-KEYWORD,ionet,PROXY
 DOMAIN-SUFFIX,uptime.betterstack.com,PROXY
 DOMAIN-KEYWORD,uptime,PROXY
+DOMAIN-SUFFIX,ionetworkers.azurewebsites.net,PROXY
