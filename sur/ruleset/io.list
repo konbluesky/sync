@@ -28,3 +28,4 @@ DOMAIN-SUFFIX,results.speedtest.net,PROXY
 DOMAIN-KEYWORD,speed,PROXY
 DOMAIN-SUFFIX,arkoselabs.com,PROXY
 DOMAIN-USFFIX,ionetworkers.azurewebsites.net,PROXY
+DOMAIN-KEYWORD,ionet,PROXY
