@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,todesk.com,PROXY
 PROCESS-NAME,/Applications/ToDesk.app/Contents/MacOS/ToDesk_Session,PROXY
 PROCESS-NAME,/Applications/ToDesk.app/Contents/MacOS/ToDesk_Service,PROXY
-
+DOMAIN-SUFFIX,apple.com,PROXY
 IP-CIDR,101.132.123.253/32,PROXY
 IP-CIDR,43.163.193.14/32,PROXY
 IP-CIDR,192.168.10.0/8,PROXY
