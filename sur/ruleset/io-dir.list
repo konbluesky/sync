@@ -1,5 +1,4 @@
 DOMAIN-SUFFIX,npmjs.org,PROXY
-DOMAIN-SUFFIX,cloudflare.com,PROXY
 DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,todesk.com,PROXY
 PROCESS-NAME,/Applications/ToDesk.app/Contents/MacOS/ToDesk_Session,PROXY
