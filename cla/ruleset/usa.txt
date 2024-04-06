@@ -7,3 +7,4 @@ payload:
 	- '+.imagine.meta.com'
 	- '+.bard.google.com'
 	- '+.galxe.com'
+	- '+.quote-api.jup.ag'
