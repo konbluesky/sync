@@ -8,3 +8,6 @@ payload:
 	- '+.bard.google.com'
 	- '+.galxe.com'
 	- '+.quote-api.jup.ag'
+	- '+.raydium.io'
+	- '+.phantom.app'
+	- '+.base.org'
