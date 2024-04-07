@@ -11,3 +11,4 @@ payload:
 	- '+.raydium.io'
 	- '+.phantom.app'
 	- '+.base.org'
+	- '+.dexscreener.com'
