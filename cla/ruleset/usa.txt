@@ -13,3 +13,4 @@ payload:
 	- '+.base.org'
 	- '+.dexscreener.com'
 	- '+.questn.com'
+	- '+.magiceden.io'
