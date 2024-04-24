@@ -40,7 +40,6 @@ payload:
 	- '+.gitbook.com'
 	- '+.gitbook.io'
 	- '+.registry.npmjs.org'
-	- '+.bing.com'
 	- '+.tensorboard.dev'
 	- '+.vercel.app'
 	- '+.github.dev'
