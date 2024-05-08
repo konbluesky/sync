@@ -1,6 +1,7 @@
 payload:
 	- '+.osmbuildings.org'
 	- '+.openai.com'
+	- '+.chatgpt.com'
 	- '+.grazie.ai'
 	- '+.cdn.oaistatic.com'
 	- '+.grazie.aws.intellij.net'
