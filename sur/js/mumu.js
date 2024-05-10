@@ -22,7 +22,7 @@ if (url.includes("/api/v1/user/info") || url.includes("api/v1/login/by_mobile"))
 } else if (url.includes("/api/mac/pro/appcast/force")) {
     obj.items = []
 } else if (url.includes("/api/v1/device/config")) {
-    obj.data.free_trial_days = 9999
+    obj.data.free_trial_days = 99
 } 
 
 headers["x-param-ts"] = undefined
