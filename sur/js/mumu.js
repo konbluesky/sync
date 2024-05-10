@@ -16,7 +16,7 @@ if (url.includes("/api/v1/user/info") || url.includes("api/v1/login/by_mobile"))
         obj.data.member_status = 1
         obj.data.member_expired_at = end_at
     }  
-} else if (url.includes("/api/v1/device/current/trial")) {
+} else if (url.includes("/api/v1/device/current/trial") || url.includes("/api/v1/device/macos/init")) {
     obj.data.trial_end_at = end_at
 } else if (url.includes("/api/mac/pro/appcast/remind")) {
     obj.items = []
