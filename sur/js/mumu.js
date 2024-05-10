@@ -3,7 +3,8 @@ const headers = $response.headers;
 const isQuanX = typeof $task !== "undefined";
 const isLoon = typeof $loon != "undefined"
 const isSurge = typeof $httpClient != "undefined" && !isLoon
-let end_at = 2516312087
+let days = 99
+let end_at = Math.floor(Date.now()/1000) + 60*60*24*days
 
 if (!$response.body) $done({});
 console.log($response.body)
@@ -22,7 +23,7 @@ if (url.includes("/api/v1/user/info") || url.includes("api/v1/login/by_mobile"))
 } else if (url.includes("/api/mac/pro/appcast/force")) {
     obj.items = []
 } else if (url.includes("/api/v1/device/config")) {
-    obj.data.free_trial_days = 99
+    obj.data.free_trial_days = days
 } 
 
 headers["x-param-ts"] = undefined
