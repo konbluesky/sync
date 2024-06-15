@@ -50,3 +50,4 @@ payload:
 	- '+.coze.com'
 	- '+.galaxy.eco'
 	- '+.ignitionrewards.iog.net
+	- '+.nssurge.com
