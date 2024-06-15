@@ -49,5 +49,6 @@ DOMAIN-SUFFIX,pump.fun,PROXY
 DOMAIN-SUFFIX,coze.com,PROXY
 DOMAIN-SUFFIX,galaxy.eco,PROXY
 DOMAIN-SUFFIX,ignitionrewards.iog.net
+DOMAIN-SUFFIX,nssurge.com
 
 IP-CIDR,155.133.7.143/32,PROXY
