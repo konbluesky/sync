@@ -8,6 +8,7 @@ on:
   schedule:
     # 定时任务的执行时间 - 每天的凌晨1点
     - cron: '0 1 * * *'
+  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
