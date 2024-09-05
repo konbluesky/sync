@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: cron
+name: sync:sub-store-sgmodule
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -28,5 +28,5 @@ jobs:
     - name: Commit and push changes
       run: |
         git add .
-        git commit -m 'update module'
+        git commit -m 'update sub-store module'
         git push
