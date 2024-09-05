@@ -1,0 +1,32 @@
+# This is a basic workflow that is manually triggered
+
+name: cron
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule:
+    # 定时任务的执行时间 - 每天的凌晨1点
+    - cron: '0 1 * * *'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  sub-store:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Step 2: Fetch file from another public repository
+    - name: Download file from public repository
+      run: |
+        curl -o sur/module/sub-store.sgmodule https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge.sgmodule
+        
+    - name: Commit and push changes
+      run: |
+        git add .
+        git commit -m 'update module'
+        git push
