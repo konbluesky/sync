@@ -18,7 +18,7 @@ jobs:
     steps:
     # Step 1: Checkout repository
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Step 2: Fetch file from another public repository
     - name: Download file from public repository
@@ -26,6 +26,7 @@ jobs:
         curl -o sur/module/sub-store.sgmodule https://raw.githubusercontent.com/sub-store-org/Sub-Store/master/config/Surge.sgmodule
         
     - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "sync: 更新模块"
+      run: |
+        git add .
+        git commit -m 'update module'
+        git push
