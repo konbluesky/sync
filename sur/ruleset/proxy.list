@@ -50,7 +50,6 @@ DOMAIN-SUFFIX,coze.com,PROXY
 DOMAIN-SUFFIX,galaxy.eco,PROXY
 DOMAIN-SUFFIX,ignitionrewards.iog.net
 DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,unisat.io
 DOMAIN-SUFFIX,potato.us.tarolink.top
 
 IP-CIDR,155.133.7.143/32,PROXY
