@@ -49,6 +49,6 @@ payload:
 	- '+.pump.fun'
 	- '+.coze.com'
 	- '+.galaxy.eco'
-	- '+.ignitionrewards.iog.net
-	- '+.nssurge.com
-	- '+.potato.us.tarolink.top
+	- '+.ignitionrewards.iog.net'
+	- '+.nssurge.com'
+	- '+.potato.us.tarolink.top'
