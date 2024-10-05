@@ -51,5 +51,4 @@ payload:
 	- '+.galaxy.eco'
 	- '+.ignitionrewards.iog.net
 	- '+.nssurge.com
-	- '+.unisat.io
 	- '+.potato.us.tarolink.top
