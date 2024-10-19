@@ -52,3 +52,4 @@ payload:
 	- '+.ignitionrewards.iog.net'
 	- '+.nssurge.com'
 	- '+.potato.us.tarolink.top'
+	- '+.app.safe.global'
