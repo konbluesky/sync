@@ -53,3 +53,4 @@ payload:
 	- '+.nssurge.com'
 	- '+.potato.us.tarolink.top'
 	- '+.app.safe.global'
+	- '+.chaininsight.vip'
