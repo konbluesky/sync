@@ -16,3 +16,4 @@ payload:
 	- '+.dexscreener.com'
 	- '+.questn.com'
 	- '+.magiceden.io'
+	- '+.gradient.network'
