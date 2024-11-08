@@ -1,0 +1,40 @@
+# This is a basic workflow that is manually triggered
+
+name: sync:proxy
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule:
+    # 定时任务的执行时间 - 每天的凌晨1点
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  sub-store:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout repository
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    # Step 2: Fetch file from another public repository
+    - name: Download file from public repository
+      run: |
+        curl -o sur/ruleset/proxy.txt https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/proxy.txt
+        
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+        git add .
+        # 检查是否有变更
+        if git diff --cached --exit-code; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git commit -m 'update proxy'
+        git push
